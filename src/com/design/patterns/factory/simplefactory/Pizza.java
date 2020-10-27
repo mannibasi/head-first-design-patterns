@@ -6,7 +6,7 @@ abstract public class Pizza {
     String name;
     String dough;
     String sauce;
-    ArrayList toppings = new ArrayList();
+    ArrayList<String> toppings = new ArrayList<>();
 
     public String getName() {
         return name;
@@ -30,12 +30,12 @@ abstract public class Pizza {
 
     public String toString() {
         // code to display pizza name and ingredients
-        StringBuffer display = new StringBuffer();
-        display.append("---- " + name + " ----\n");
-        display.append(dough + "\n");
-        display.append(sauce + "\n");
-        for (int i = 0; i < toppings.size(); i++) {
-            display.append(toppings.get(i) + "\n");
+        StringBuilder display = new StringBuilder();
+        display.append("---- ").append(name).append(" ----\n");
+        display.append(dough).append("\n");
+        display.append(sauce).append("\n");
+        for (String topping : toppings) {
+            display.append(topping).append("\n");
         }
         return display.toString();
     }
