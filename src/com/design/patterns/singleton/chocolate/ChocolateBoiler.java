@@ -21,24 +21,33 @@ public class ChocolateBoiler {
 
     public void fill() {
         if (isEmpty()) {
-            empty = false;
-            boiled = false;
-            // fill the boiler with a milk/chocolate mixture
+            fillBoilerWithMilkAndChocolateMixture();
         }
     }
 
     public void drain() {
         if (!isEmpty() && isBoiled()) {
-            // drain the boiled milk and chocolate
-            empty = true;
+            drainBoiledMilkAndChocolate();
         }
     }
 
     public void boil() {
         if (!isEmpty() && !isBoiled()) {
-            // bring the contents to a boil
-            boiled = true;
+            bringContentsToBoil();
         }
+    }
+
+    private void drainBoiledMilkAndChocolate() {
+        empty = true;
+    }
+
+    private void fillBoilerWithMilkAndChocolateMixture() {
+        empty = false;
+        boiled = false;
+    }
+
+    private void bringContentsToBoil() {
+        boiled = true;
     }
 
     public boolean isEmpty() {
