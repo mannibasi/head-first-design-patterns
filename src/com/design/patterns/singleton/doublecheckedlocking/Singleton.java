@@ -1,9 +1,4 @@
-package com.design.patterns.singleton.dcl;
-
-//
-// Danger!  This implementation of Singleton not
-// guaranteed to work prior to Java 5
-//
+package com.design.patterns.singleton.doublecheckedlocking;
 
 public class Singleton {
     private volatile static Singleton uniqueInstance;

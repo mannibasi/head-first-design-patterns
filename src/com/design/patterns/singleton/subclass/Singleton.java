@@ -3,8 +3,6 @@ package com.design.patterns.singleton.subclass;
 public class Singleton {
     protected static Singleton uniqueInstance;
 
-    // other useful instance variables here
-
     protected Singleton() {
     }
 
@@ -14,6 +12,4 @@ public class Singleton {
         }
         return uniqueInstance;
     }
-
-    // other useful methods here
 }
