@@ -27,3 +27,6 @@ Provides an interface for creating families of related or dependent objects with
 
 ## The Singleton Pattern
 Ensures a class has only one instance, and provides a global point of access to it.
+
+## The Command Pattern
+Encapsulates a request as an object, thereby letting you parameterize other objects with different requests, queue or log requests, and support undoable operations.
