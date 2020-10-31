@@ -8,6 +8,7 @@ Eric Freeman & Elisabeth Freeman, with Kathy Sierra & Bert Bates
 * Strive for loosely coupled designs between objects that interact; loosely coupled designs are much more flexible and resilient to change
 * Classes should be open for extension, but closed for modification; Open-Closed Principle
 * Depend upon abstractions.  Do not depend upon concrete classes
+* Only talk to your friends.  Principle of Least Knowledge (aka Law of Demeter); talk only to your immediate friends
 
 ## The Strategy Pattern
 Defines a family of algorithms, encapsulates each one, and makes them interchangeable.  Strategy lets the algorithm vary independently from client that use it.
@@ -30,3 +31,9 @@ Ensures a class has only one instance, and provides a global point of access to 
 
 ## The Command Pattern
 Encapsulates a request as an object, thereby letting you parameterize other objects with different requests, queue or log requests, and support undoable operations.
+
+## The Adapter Pattern
+Converts the interface of a class into another interface the client expects.  Adapter lets classes work together that couldn't otherwise because of incompatible interfaces.
+
+## The Facade Pattern
+Provides a unified interface to a set of interfaces in a subsystem.  Facade defines a higher-level interface that makes the subsystem easier to use.
