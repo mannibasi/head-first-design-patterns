@@ -10,6 +10,7 @@ Eric Freeman & Elisabeth Freeman, with Kathy Sierra & Bert Bates
 * Depend upon abstractions.  Do not depend upon concrete classes
 * Only talk to your friends.  Principle of Least Knowledge (aka Law of Demeter); talk only to your immediate friends
 * Don't call us, we'll call you!
+* A class should have only one reason to change
 
 ## The Strategy Pattern
 Defines a family of algorithms, encapsulates each one, and makes them interchangeable.  Strategy lets the algorithm vary independently from client that use it.
@@ -42,3 +43,9 @@ Provides a unified interface to a set of interfaces in a subsystem.  Facade defi
 ## The Template Method Pattern
 Defines the skeleton of an algorithm in an operation, deferring some steps to subclasses.
 Template Method lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure.
+
+## The Iterator Pattern
+Provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
+
+## The Composite Pattern
+Composes objects into tree structures to represent part-whole hierarchies.  Composite lets clients treat individual objects and compositions of objects uniformly.
