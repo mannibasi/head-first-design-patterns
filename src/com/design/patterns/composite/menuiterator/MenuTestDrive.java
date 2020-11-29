@@ -2,7 +2,6 @@ package com.design.patterns.composite.menuiterator;
 
 public class MenuTestDrive {
     public static void main(String[] args) {
-
         MenuComponent pancakeHouseMenu =
                 new Menu("PANCAKE HOUSE MENU", "Breakfast");
         MenuComponent dinerMenu =

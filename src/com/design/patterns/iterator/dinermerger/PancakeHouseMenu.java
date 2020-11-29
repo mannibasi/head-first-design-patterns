@@ -46,6 +46,4 @@ public class PancakeHouseMenu implements Menu {
     public String toString() {
         return "Objectville Pancake House Menu";
     }
-
-    // other menu methods here
 }

@@ -43,6 +43,4 @@ public class PancakeHouseMenu implements Menu {
     public Iterator createIterator() {
         return menuItems.iterator();
     }
-
-    // other menu methods here
 }

@@ -22,6 +22,5 @@ public class MenuTestDrive {
         } else {
             System.out.println("No");
         }
-
     }
 }
