@@ -49,3 +49,6 @@ Provides a way to access the elements of an aggregate object sequentially withou
 
 ## The Composite Pattern
 Composes objects into tree structures to represent part-whole hierarchies.  Composite lets clients treat individual objects and compositions of objects uniformly.
+
+## The State Pattern
+Allows an object to alter its behaviour when its internal state changes.  The object will appear to change its class.
